@@ -1,10 +1,10 @@
-# DINO
+# DINO Subgrid Momentum
 
 [![DOI](https://zenodo.org/badge/776021044.svg)](https://doi.org/10.5281/zenodo.13851911)
 
 ## Context and Motivation
 
-[A DIabatic NeverwOrld2](https://github.com/vopikamm/DINO) coupled with external Python models.
+[A DIabatic NeverwOrld2](https://github.com/vopikamm/DINO) coupled with Python subgrid momentum forcing.
 
 #### Variations
 - **GZ21** : DINO coupled with [Guillaumin and Zanna, 2021](https://doi.org/10.1029/2021MS002534) ML model 
@@ -23,7 +23,7 @@
 - Eophis version : [v1.0.0](https://github.com/alexis-barge/eophis/tree/v1.0.0)
 - **GZ21** dependencies:
   ```bash
-  cd DINO.GZ21/INFERENCES/gz21_ocean_momentum
+  cd DINO_SubgridMomentum.GZ21/INFERENCES/gz21_ocean_momentum
   pip install -e .
   ```
 
